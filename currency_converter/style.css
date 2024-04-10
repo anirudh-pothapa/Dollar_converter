@@ -1,0 +1,42 @@
+form
+{
+    display: flex;
+    flex-direction: column;
+align-items: center;
+    justify-content: center;
+}
+
+body{
+    display: flex;
+ align-items: center;
+ background-color: aqua;
+    justify-content: center;
+    height: 100vh;
+}
+.container
+{
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 1rem;
+    min-height: 45vh;
+    width:40vh ;
+}
+.dropdown
+{
+    display: flex;
+    gap: 10px;
+
+}
+.input
+{
+    width: 100%;
+    border: none;
+    margin-bottom: 2px;
+    padding: 15px;
+    border-radius: 1rem;
+    background-color: aliceblue;
+}
+.result
+{
+    text-shadow: 2px 0px #ff0000;
+}
